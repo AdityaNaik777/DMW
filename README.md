@@ -1,4 +1,4 @@
-Here’s a polished **README.md** draft for your DMW practical work:
+Perfect 👍 I’ll extend your **README.md** draft and add today’s practical on **Star Schema** and **Snowflake Schema** creation with the **Hospital Dataset**. Here’s the updated version:
 
 ---
 
@@ -41,12 +41,43 @@ This repository contains practical implementations of **Data Mining and Warehous
 
 ---
 
+### 3) Hospital Dataset – Star Schema & Snowflake Schema
+
+* **Tool Used:** Power BI
+
+* **Description:**
+  Designed **Star Schema** and **Snowflake Schema** using a **Hospital dataset** to understand schema modeling in **Data Warehousing**.
+
+* **Star Schema:**
+
+  * **Fact Table:** Appointments
+  * **Dimension Tables:** Patients, Doctors, Departments, Treatments, Billing
+  * Direct relationships between fact and dimensions.
+
+* **Snowflake Schema:**
+
+  * Normalized dimension tables:
+
+    * Treatments → linked with extended table containing treatment names
+    * Doctors → linked with extended tables containing doctor level of qualification
+  * Reduces redundancy and improves organization.
+
+* **Features:**
+
+  * Learned how to build relationships and set cardinality in Power BI.
+  * Compared **Star Schema (denormalized, faster queries)** vs **Snowflake Schema (normalized, organized)**.
+  * Gained hands-on understanding of **Data Warehouse modeling**.
+
+📸 **Sample Screenshot (Star Schema Model View in Power BI):** <img width="800" height="420" alt="Star Schema" src="(add_your_uploaded_image_link_here)" />
+
+---
+
 ## ⚙️ Technologies & Tools Used
 
 * **Power BI** – Dashboard creation & visualization.
-* **Python** – Data preprocessing & KMeans clustering.
+* **Python** – Data preprocessing & clustering.
 * **Pandas, Matplotlib, Scikit-learn** – For clustering logic.
-* **Data Mining Concepts** – Clustering, segmentation, and visualization.
+* **Data Warehousing Concepts** – Star Schema, Snowflake Schema.
 
 ---
 
@@ -54,8 +85,9 @@ This repository contains practical implementations of **Data Mining and Warehous
 
 * Hands-on experience in **Data Visualization** with Power BI.
 * Practical application of **KMeans clustering** for customer segmentation.
+* Designed and implemented **Star Schema & Snowflake Schema** for a hospital dataset.
+* Understood trade-offs between **denormalized vs normalized** schema design.
 * Integration of **Python with Power BI** for advanced analytics.
-* Understanding of **Data Mining and Warehousing concepts** with real-world datasets.
 
 ---
 
@@ -63,9 +95,9 @@ This repository contains practical implementations of **Data Mining and Warehous
 
 * Extending sneaker dataset analysis with predictive modeling.
 * Applying other clustering methods (Hierarchical, DBSCAN).
-* Building recommendation systems based on customer segmentation.
+* Implementing **OLAP operations** (Roll-up, Drill-down, Slice, Dice) on Hospital Dataset.
+* Building recommendation systems based on patient–doctor specialization mapping.
 
 ---
 
 This project demonstrates the **fusion of Data Mining concepts with Business Intelligence tools** for better decision-making.
-
