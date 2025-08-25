@@ -68,7 +68,12 @@ This repository contains practical implementations of **Data Mining and Warehous
   * Compared **Star Schema (denormalized, faster queries)** vs **Snowflake Schema (normalized, organized)**.
   * Gained hands-on understanding of **Data Warehouse modeling**.
 
-📸 **Sample Screenshot (Star Schema Model View in Power BI):** <img width="800" height="420" alt="Star Schema" src="(add_your_uploaded_image_link_here)" />
+📸 **Sample Screenshot (Star Schema Model View in Power BI):**  
+<img width="800" height="420" alt="Star Schema" src="assets/star schema.png" />
+
+📸 **Sample Screenshot (Snowflake Schema Model View in Power BI):**  
+<img width="800" height="420" alt="Snowflake Schema" src="assets/snowflake schema.png" />
+
 
 ---
 
